@@ -17,10 +17,11 @@ function imprimeMensagem() {
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo() {
-  // implemente sua lógica aqui
-
+function calculaAreaRetangulo(altura, largura) {
+const area = altura * largura
+console.log(area)
 }
+calculaAreaRetangulo(2, 3)
 
 // EXERCÍCIO 02
 function imprimeIdade() {
