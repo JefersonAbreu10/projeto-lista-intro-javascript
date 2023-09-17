@@ -39,11 +39,11 @@ calculaIM(85, 1.8)
 
 
 // EXERCÍCIO 04
-function imprimeInformacoesUsuario() {
-  // implemente sua lógica aqui
-  // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
-
+function imprimeInformacoesUsuario(nome, idade, email) {
+console.log("meu nome é", nome, ",tenho", idade,"anos,","meu email é", email)
 }
+imprimeInformacoesUsuario("Jeferson", 29, "jefersonabreu9494@gmail.com")
+
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
