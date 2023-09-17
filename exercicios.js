@@ -24,16 +24,18 @@ console.log(area)
 calculaAreaRetangulo(2, 3)
 
 // EXERCÍCIO 02
-function imprimeIdade() {
-  // implemente sua lógica aqui
-
+function imprimeIdade(anoAtual, anoDeNascimento) {
+const idade = anoAtual - anoDeNascimento
+console.log(idade)
 }
+imprimeIdade(2023, 1994)
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
-  // implemente sua lógica aqui
-
+  const IMC = peso /(altura * altura)
+  console.log(IMC)
 }
+calculaIMC(85, 1.8)
 
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
