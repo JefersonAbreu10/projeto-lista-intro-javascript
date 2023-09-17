@@ -46,10 +46,11 @@ imprimeInformacoesUsuario("Jeferson", 29, "jefersonabreu9494@gmail.com")
 
 
 // EXERCÍCIO 05
-function imprimeTresCoresFavoritas() {
-  // implemente sua lógica aqui
-
+function imprimeTresCoresFavoritas(cor1, cor2, cor3) {
+let coresFavoritas = [cor1, cor2, cor3]
+console.log(coresFavoritas)
 }
+imprimeTresCoresFavoritas("vermelho", "azul", "amarelo")
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
