@@ -68,16 +68,17 @@ calculaIngressosEspetaculo(3000, 100)
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1 = "ola", string2 = "abc") {
-const tamanho = string1 === string2
+const tamanho = string1 === string2;
 console.log(tamanho)
 }
 checaStringsMesmoTamanho()
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
-  // implemente sua lógica aqui
-
+const numeros = [1, 2, 3, 4, 5];
+console.log(numeros[0])
 }
+retornaPrimeiroElemento()
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
