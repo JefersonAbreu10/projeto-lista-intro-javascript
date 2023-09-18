@@ -82,19 +82,29 @@ retornaPrimeiroElemento()
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
-
+const frutas = ["banana", "laranja", "goiaba"]
+console.log(frutas[2])
 }
+retornaUltimoElemento()
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
-
+const alunos = ["wesley", "marina", "bruno"];
+console.log(alunos);
+const removeAlunos = alunos.pop();
+console.log(removeAlunos);
+const removeAlunos2 = alunos.shift();
+console.log(removeAlunos2);
+alunos.unshift("bruno")
+alunos.push("wesley")
+console.log(alunos)
 }
+trocaPrimeiroEUltimo()
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
+
+
 
 }
 
