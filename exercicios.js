@@ -53,10 +53,11 @@ console.log(coresFavoritas)
 imprimeTresCoresFavoritas("vermelho", "azul", "amarelo")
 
 // EXERCÍCIO 06
-function retornaStringEmMaiuscula(string) {
-  // implemente sua lógica aqui
-
+function retornaStringEmMaiuscula(string = "oi") {
+const letraMaiuscula = string.toUpperCase()
+console.log(letraMaiuscula)
 }
+retornaStringEmMaiuscula()
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
