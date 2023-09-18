@@ -61,16 +61,17 @@ retornaStringEmMaiuscula()
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo , valorIngresso) {
-const calculoDoEvento = custo / valorIngresso
-console.log(calculoDoEvento)
+const calculoDoEvento = custo / valorIngresso;
+console.log(calculoDoEvento);
 }
 calculaIngressosEspetaculo(3000, 100)
 
 // EXERCÍCIO 08
-function checaStringsMesmoTamanho(string1, string2) {
-  // implemente sua lógica aqui
-
+function checaStringsMesmoTamanho(string1 = "ola", string2 = "abc") {
+const tamanho = string1 === string2
+console.log(tamanho)
 }
+checaStringsMesmoTamanho()
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
